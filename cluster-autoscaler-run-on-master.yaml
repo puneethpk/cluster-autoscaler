@@ -141,7 +141,7 @@ spec:
             - --stderrthreshold=info
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
-            - --nodes=2:10:nodes.###CLIENT###.devops 
+            - --nodes=###node_count###:###MAX_NODE###:nodes.###CLIENT###.devops 
           env:
             - name: AWS_REGION
               value: ###ZONE###
